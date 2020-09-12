@@ -119,31 +119,32 @@ function onGenerateClicked(){
 	var version = $inputVersion.val();
 	var by = $inputBy.val();
 
-	var $result = generateCardSheet(dataSheet, xx, yy);
-	console.log($result);
-	$(".sheet-version").html(title+" v"+version+" by "+by);
-	$previewArea.html("").append($result);
-
-
-
-
+	var payload = generateCardSheet(dataSheet, xx, yy);
+	console.log(payload);
+	// $(".sheet-version").html(title+" v"+version+" by "+by);
+	$previewArea.html("");
+	for (let index = 0; index < payload.length; index++) {
+		const $result = payload[index];
+		$previewArea.append($result);
+	}
 	saveSettingToStorage();
 }
 
 
 function generateCardSheet(pDatasheet, pRepeatX, pRepeatY) {
+	console.log(pDatasheet, pRepeatX, pRepeatY);
+	var payload = [];
 	var $result = $("<table></table>").addClass("page");
 	var cardID = 0;
 	var pDatasheetlen = pDatasheet.length;
-	for(var i=0; i < pRepeatY; i++){
+	var rowCount = 0;
+	while (cardID < pDatasheetlen){
+		//for(var i=0; i < pRepeatY; i++){
 		// stop if no more cards
-		if(cardID >= pDatasheetlen) break;
-
 		var $row = $("<tr></tr>");
 		for(var j=0; j < pRepeatX; j++){
 			// create cell
 			var $cell = $("<td></td>");
-
 			// fill in if have more cards
 			if(cardID < pDatasheetlen) {
 				// clone card svg
@@ -168,8 +169,18 @@ function generateCardSheet(pDatasheet, pRepeatX, pRepeatY) {
 			$row.append($cell);
 		}
 		$result.append($row);
+		rowCount++;
+		if (rowCount % pRepeatY == 0){
+			// new page
+			payload.push($result.clone());
+			var $result = $("<table></table>").addClass("page");
+		}
 	}
-	return $result;
+
+	payload.push($result.clone());
+	
+	
+	return payload;
 }
 
 

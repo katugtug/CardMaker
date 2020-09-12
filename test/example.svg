@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 235 330" style="enable-background:new 0 0 235 330;" xml:space="preserve" height="330px" width="235px">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'Arial-BoldMT';}
+	.st2{font-size:16px;}
+	.st3{font-size:20px;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:9px;}
+	.st6{font-size:18px;}
+	.st7{font-size:12px;}
+	.st8{font-size:11px;}
+	.st9{font-size:10px;}
+	.st10{letter-spacing:14;}
+	.st11{fill:none;}
+	.st12{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st13{letter-spacing:8;}
+</style>
+<circle class="st0" cx="23" cy="23.8" r="16.5"/>
+<text transform="matrix(1 0 0 1 18.6016 28.333)" class="st1 st2">#cost</text>
+<text transform="matrix(1 0 0 1 47.0006 25.3331)" class="st1 st3">#name</text>
+<text transform="matrix(1 0 0 1 47.0011 36.333)" class="st4 st5">#class</text>
+<text transform="matrix(1 0 0 1 75.0023 48.6666)" class="st4 st5">#chain1</text>
+<text transform="matrix(1 0 0 1 128.2014 48.6663)" class="st4 st5">#chain2</text>
+<text transform="matrix(1 0 0 1 181.3998 48.6665)" class="st4 st5">#chain3</text>
+<text transform="matrix(1 0 0 1 8.6593 84)" class="st1 st6">#spd</text>
+<text transform="matrix(1 0 0 1 103.9998 93.6658)" class="st1 st7">#mdef</text>
+<text transform="matrix(1 0 0 1 138.0005 93.6659)" class="st1 st7">#rdef</text>
+<text transform="matrix(1 0 0 1 172.6671 93.6662)" class="st1 st7">#adef</text>
+<text transform="matrix(1 0 0 1 8.6592 177.1664)" class="st1 st7">#wname1</text>
+<text transform="matrix(1 0 0 1 88.5 191.8324)" class="st4 st8">#wdice1</text>
+<text transform="matrix(1 0 0 1 130.1668 191.8317)" class="st4 st8">#wpow1</text>
+<text transform="matrix(1 0 0 1 175.8333 191.8322)" class="st4 st8">#wrng1</text>
+<text transform="matrix(1 0 0 1 8.6593 192.4821)" class="st4 st5">#wtype1</text>
+<text transform="matrix(1 0 0 1 8.6593 207.9997)" class="st4 st5">#wspecial1</text>
+<text transform="matrix(1 0 0 1 8.9129 223.6664)" class="st1 st7">#wname2</text>
+<text transform="matrix(1 0 0 1 86.7537 238.3324)" class="st4 st8">#wdice2</text>
+<text transform="matrix(1 0 0 1 128.4205 238.3317)" class="st4 st8">#wpow2</text>
+<text transform="matrix(1 0 0 1 174.087 238.3322)" class="st4 st8">#wrng2</text>
+<text transform="matrix(1 0 0 1 8.913 238.9821)" class="st4 st5">#wtype2</text>
+<text transform="matrix(1 0 0 1 8.913 254.4997)" class="st4 st5">#wspecial2</text>
+<text transform="matrix(1 0 0 1 8.8622 269.1664)" class="st4 st5">#special1</text>
+<text transform="matrix(1 0 0 1 8.6589 279.5657)" class="st4 st5">#special2</text>
+<text transform="matrix(1 0 0 1 8.7095 289.9663)" class="st4 st5">#special3</text>
+<text transform="matrix(1 0 0 1 8.8113 300.366)" class="st4 st5">#special4</text>
+<text transform="matrix(1 0 0 1 8.7605 310.7657)" class="st4 st5">#special5</text>
+<text transform="matrix(1 0 0 1 8.9132 321.1664)" class="st4 st5">#special6</text>
+<text transform="matrix(1 0 0 1 8.6592 69)" class="st4 st5">SPD</text>
+<text transform="matrix(1 0 0 1 27.1592 69)" class="st4 st9 st10"> </text>
+<text transform="matrix(1 0 0 1 8.6589 128.8)" class="st4 st5">Wounds</text>
+<rect x="101" y="73" class="st11" width="28.6" height="11"/>
+<text transform="matrix(1 0 0 1 101 79.4437)" class="st4 st5"> Melee  </text>
+<rect x="135.1" y="73" class="st11" width="28.6" height="11"/>
+<text transform="matrix(1 0 0 1 135.1042 79.4437)" class="st4 st5">Rnged</text>
+<rect x="171.4" y="73" class="st11" width="28.6" height="11"/>
+<text transform="matrix(1 0 0 1 171.3546 79.4437)" class="st4 st5">Arcane</text>
+<line class="st12" x1="100.5" y1="82" x2="205" y2="82"/>
+<line class="st12" x1="99.5" y1="73.7" x2="99.5" y2="90.3"/>
+<line class="st12" x1="205" y1="73.7" x2="205" y2="90.3"/>
+<line class="st12" x1="167.5" y1="73.7" x2="167.5" y2="90.3"/>
+<line class="st12" x1="131.3" y1="73.7" x2="131.3" y2="90.3"/>
+<text transform="matrix(1 0 0 1 134.5 68)" class="st1 st5">Defense</text>
+<text transform="matrix(1 0 0 1 103.9998 138.4158)" class="st1 st7">#mskill</text>
+<text transform="matrix(1 0 0 1 138.0005 138.4159)" class="st1 st7">#rskill</text>
+<text transform="matrix(1 0 0 1 171.6671 138.4162)" class="st1 st7">#askill</text>
+<rect x="101" y="117.8" class="st11" width="28.7" height="11"/>
+<text transform="matrix(1 0 0 1 101 124.1937)" class="st4 st5"> Melee</text>
+<rect x="133.2" y="117.8" class="st11" width="33.5" height="11"/>
+<text transform="matrix(1 0 0 1 133.1672 124.1937)" class="st4 st5">Ranged</text>
+<rect x="171.5" y="117.8" class="st11" width="33.5" height="11"/>
+<text transform="matrix(1 0 0 1 171.5005 124.1937)" class="st4 st5">Arcane</text>
+<line class="st12" x1="100.5" y1="126.8" x2="205" y2="126.8"/>
+<line class="st12" x1="99.5" y1="118.4" x2="99.5" y2="135.1"/>
+<line class="st12" x1="205" y1="118.4" x2="205" y2="135.1"/>
+<line class="st12" x1="167.5" y1="118.4" x2="167.5" y2="135.1"/>
+<line class="st12" x1="131.3" y1="118.4" x2="131.3" y2="135.1"/>
+<text transform="matrix(1 0 0 1 121.6667 112.75)" class="st1 st5">Offensive Skill</text>
+<text transform="matrix(1 0 0 1 8.6593 113.75)" class="st1 st6">#arm</text>
+<text transform="matrix(1 0 0 1 8.9131 143.75)" class="st1 st6">#wounds</text>
+<text transform="matrix(1 0 0 1 8.6592 98.75)" class="st4 st5">Armor</text>
+<text transform="matrix(1 0 0 1 33.1592 98.75)" class="st4 st9 st13"> </text>
+<text transform="matrix(1 0 0 1 94.5 158.75)" class="st4 st5">Dice</text>
+<text transform="matrix(1 0 0 1 136.1667 158.7503)" class="st4 st5">Power</text>
+<text transform="matrix(1 0 0 1 181.8337 157.75)" class="st4 st5">Range</text>
+<line class="st12" x1="8.7" y1="162" x2="222.3" y2="162"/>
+<text transform="matrix(1 0 0 1 47.0012 48.6667)" class="st4 st9">from:</text>
+</svg>

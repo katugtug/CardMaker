@@ -5,6 +5,7 @@
 table.page{
     border-collapse: collapse;
     border: solid gray 1px;
+    margin-bottom:30px;
 }
 
 .page td{
@@ -14,3 +15,4 @@ table.page{
 .app-credit{
     color: gray;
 }
+
